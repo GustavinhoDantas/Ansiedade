@@ -1,0 +1,68 @@
+@media (max-width: 620px){
+    body{
+        background-color: #7919af;
+        height: 100vh;
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+    }
+    
+    h1{
+        font-family: 'Secular One', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin:4vh; 
+    }
+    
+    p{
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        bottom: 180px;
+        margin: 15px;
+    }
+    
+    
+    
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 50px;
+    }
+    
+    .voltar{
+        position: relative;
+        left: 190px;
+        bottom: 90px;
+        width: 450px;
+        height: 250px;
+    }
+    
+    .avancar{
+        position: relative;
+        left: -80px;
+        bottom: 90px;
+        width: 450px;
+        height: 250px;
+    }
+    
+    .rodape{
+        position: relative ;
+        left: 160px;
+        bottom: 190px;
+    }
+    
+    .casa{
+        max-width: 100px; 
+        max-height: 100px
+    }
+     
+}    

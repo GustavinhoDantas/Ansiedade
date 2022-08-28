@@ -1,0 +1,50 @@
+@media (max-width: 620px){
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 50px;
+    }
+    
+    .MarcaTexto{
+        display: block;
+        position: absolute;
+        left: -90px;
+        bottom: 200px;
+        height: 500px;
+        width: 600px;
+        margin: auto;
+       
+    }
+    
+    
+    .titulo{
+        font-family: 'Secular One', sans-serif;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin:4vh;    
+    }
+    
+    .texto{
+        text-align:center;
+        position: relative;
+        top: 60px;
+        margin: 5px;
+        font-size: 30px;
+    }
+    
+    .mulher{
+        position: relative ;
+        left: -120px;
+        bottom: 25px;
+        width: 650px;
+        height: 400px;
+    }
+}   
